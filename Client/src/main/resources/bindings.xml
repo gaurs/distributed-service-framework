@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="bindings.xsd">
+
+	<bindings name="Service">
+		<binding type="Client" interfaceName="com.optimumalgorithms.service.FirstService"
+			value="services"></binding>
+
+		<binding type="Local" interfaceName="com.optimumalgorithms.service.FirstService"
+			value="com.optimumalgorithms.service.FirstServiceImpl"></binding>
+
+	</bindings>
+
+</mappings>
