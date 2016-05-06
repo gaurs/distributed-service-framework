@@ -2,7 +2,7 @@
 
 The project represents a multi-tier distributed services framework that can be used to scale current applications. Following are the main modules:
 
-  - Service layer (deployed on any webServer)
+  - Service layer (deployed on any servlet container)
   - Framework (shared between client and service layer)
   - Client
 
